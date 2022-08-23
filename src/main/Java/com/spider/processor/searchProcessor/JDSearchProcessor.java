@@ -60,7 +60,11 @@ public class JDSearchProcessor implements PageProcessor {
                 //此处以输出代替
                 System.out.println(jsonInfo);
                 /*
-                将该信息交给调度系统（结束）
+                将该信息交给调度系统（结束）redis
+
+
+
+
                  */
             }
         }

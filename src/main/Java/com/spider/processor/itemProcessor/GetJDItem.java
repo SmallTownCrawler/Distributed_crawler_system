@@ -1,6 +1,7 @@
 package com.spider.processor.itemProcessor;
 
 
+import com.spider.util.HttpUtil;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import us.codecraft.webmagic.Spider;
@@ -22,6 +23,7 @@ public class GetJDItem implements GetItem{
         processor = new JDItemProcessor();
         Spider.create(processor)
                 .addUrl(productUrl)
+//                .setDownloader(HttpUtil.getDownloader())
                 .run();
         return processor.getSkuName();
     }

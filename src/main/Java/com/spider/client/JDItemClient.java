@@ -32,5 +32,9 @@ public class JDItemClient {
         item.setTitle(itemspider.getItemInfo(item.getUrl()));
         item.setPrice(Double.parseDouble(priceSpider.getPrice(item.getSku())));
         System.out.println("爬取信息如下："+item);
+        //********************hbase存储**************************************
+
+
+        //**********************************************************
     }
 }

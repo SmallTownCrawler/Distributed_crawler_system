@@ -41,7 +41,8 @@ public class spiderTest {
     @Test
     public void testItemClient(){
         //执行testSearchClient得到的json   经调度系统调度到此节点
-        String json = "{\"pic\":\"https://img13.360buyimg.com/n7/jfs/t1/219583/26/7800/151098/61b8a3f2E2879c4f6/9b73c1d24e0abecb.jpg\",\"sku\":\"100016931023\",\"spu\":\"100016931023\",\"url\":\"https://item.jd.com/100016931023.html\"}";
+//        String json = "{\"pic\":\"https://img13.360buyimg.com/n7/jfs/t1/219583/26/7800/151098/61b8a3f2E2879c4f6/9b73c1d24e0abecb.jpg\",\"sku\":\"100016931023\",\"spu\":\"100016931023\",\"url\":\"https://item.jd.com/100016931023.html\"}";
+        String json = "{\"pic\":\"https://img12.360buyimg.com/n7/jfs/t1/204818/5/26302/69736/63019a41Ecdea864f/a6588ad28ca7db77.jpg\",\"sku\":\"100030527947\",\"spu\":\"\",\"url\":\"https://item.jd.com/100030527947.html\"}\n";
         JDItemClient jdItemClient = new JDItemClient();
         jdItemClient.getInfoByItem(json);
     }
