@@ -7,7 +7,7 @@ import com.spider.processor.itemProcessor.GetItem;
 import com.spider.processor.itemProcessor.GetJDItem;
 import com.spider.processor.priceProcessor.GetJDPrice;
 import com.spider.processor.priceProcessor.GetPrice;
-import jdk.nashorn.internal.scripts.JD;
+//import jdk.nashorn.internal.scripts.JD;
 
 /**
  * @ClassName: ItemClient
